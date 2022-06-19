@@ -29,7 +29,7 @@ notebook = ttk.Notebook(root, width=600, height=500)
 notebook.pack(pady=10, expand=True)
 
 # create frames
-frame1 = Frame(root, width=600, height=500, bg='#0c456b') #notebook if i want 2 tap
+frame1 = Frame(root, width=600, height=500, bg='#0c456b') #notebook if i want 2 tab
 frame1.pack(padx=0, pady=200)
 #frame2 = Frame(notebook, width=600, height=500, bg='#0c456b')
 #frame2.pack(padx=0, pady=200)
