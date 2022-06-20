@@ -1,24 +1,19 @@
-#!/usr/bin/env python 
-# coding: utf-8
-
-
-from email import message
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
 #from chempy import *
 from cProfile import label
-
-from numpy import unicode_
 from element import *
 import element
 import sys
 
 
+
 myObject = element.PeriodicalSystem
 
 # root window
-root = Tk()
+root = tk.Tk()
+root.tk.call('encoding', 'system', 'utf-8')
 root.title('ქიმია')
 if sys.platform.startswith('win'):
     root.iconbitmap('bio.ico')
@@ -60,7 +55,7 @@ groupbox2.grid(row=1, column=1, sticky='NW', padx=10, pady=10, ipadx=5, ipady=5)
 element_input_label = Label(groupbox1, text='სახელი:')
 element_input_label.place(x = 10, y = 10)
 
-element_input = Entry(groupbox1) 
+element_input = Entry(groupbox1)
 element_input.place(x = 80, y =10)
 
 elemName = Label(groupbox2, text=f'სახელი: ')
