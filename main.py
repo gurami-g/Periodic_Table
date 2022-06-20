@@ -1,3 +1,7 @@
+#!/usr/bin/env python 
+# coding: utf-8
+
+
 from email import message
 from tkinter import *
 import tkinter as tk
