@@ -56,7 +56,7 @@ groupbox2.grid(row=1, column=1, sticky='NW', padx=10, pady=10, ipadx=5, ipady=5)
 element_input_label = Label(groupbox1, text='სახელი:')
 element_input_label.place(x = 10, y = 10)
 
-element_input = Entry(groupbox1)
+element_input = Entry(groupbox1,font=('acadnusx', 12))
 element_input.place(x = 80, y =10)
 
 elemName = Label(groupbox2, text=f'სახელი: ')
@@ -88,7 +88,8 @@ def displayLabel(elemArr):
 def filterElemet():
     for i in myObject:
         if element_input.get() == myObject[i]['input'] or element_input.get().upper() == myObject[i]['სიმბოლო'].upper():
-            currentElement = [myObject[i]['სახელი'], myObject[i]['სიმბოლო'], myObject[i]['რიგი'], myObject[i]['პერიოდი'], myObject[i]['რიგის ნომერი']]
+            currentElement = [myObject[i]['სახელი'], myObject[i]['სიმბოლო'], myObject[i]['რიგი'], myObject[i]['პერიოდი'],
+            myObject[i]['რიგის ნომერი']]
             displayLabel(currentElement)
 
 root.bind('<Enter>', filterElemet)
@@ -108,13 +109,15 @@ Mybutton.place(x=277, y=30)
 #groupbox3 = ttk.LabelFrame(frame2, text='TEST', width=300, height = 60)
 #groupbox3.grid(row=2, column=3, sticky='WN', padx=5, pady=5, ipadx=5, ipady=5)
 
-thisPath = os.path.dirname(os.path.realpath(_file_))
+thisPath = os.path.dirname(os.path.realpath(__file__))
 fe = os.environ['WINDIR'] + '\\Fonts\\acadnusx.ttf'
 file_exist = exists(fe)
 
 if file_exist != 1:
     messagebox.showinfo(
-        'შეტყობინება', 'თქვენს მოწყობილობაში ვერ მოიძებნა პროგრამისთვის განკუთვნილი ფონტი acadnusx, იმისათვის რომ პროგრამამ სრულყოფილად იმუშავოს, გთხოვთ დააინსტალიროთ install ღილაკის დაკლიკვით და შემდეგ გადატვირთოთ მოწყობილობა')
+        'შეტყობინება', 'თქვენს მოწყობილობაში ვერ მოიძებნა პროგრამისთვის განკუთვნილი ფონტი acadnusx, ' 
+        'იმისათვის რომ პროგრამამ სრულყოფილად იმუშავოს, გთხოვთ დააინსტალიროთ install ღილაკის დაკლიკვით და '
+        'შემდეგ გადატვირთოთ მოწყობილობა')
 
 system(f'start {thisPath}\\acadnusx.ttf')
 
