@@ -545,7 +545,7 @@ PeriodicalSystem = {
         },
 
         61:{
-            'input': 'wyalbadi',
+            'input': 'astati',
                 'სახელი':'ასტატი',
                 'სიმბოლო':'At',
                 'რიგი':'7',
@@ -554,7 +554,7 @@ PeriodicalSystem = {
         },
 
         62:{
-            'input': 'wyalbadi',
+            'input': 'heliumi',
                 'სახელი' :'ჰელიუმი',
                 'სიმბოლო':'He',
                 'რიგი':'8',
@@ -563,7 +563,7 @@ PeriodicalSystem = {
         },
 
           63:{
-            'input': 'wyalbadi',
+            'input': 'neoni',
                 'სახელი' :'ნეონი',
                 'სიმბოლო':'Ne',
                 'რიგი':'8',
@@ -572,7 +572,7 @@ PeriodicalSystem = {
         },
 
           64:{
-            'input': 'wyalbadi',
+            'input': 'argoni',
                 'სახელი' :'არგონი',
                 'სიმბოლო':'Ar',
                 'რიგი':'8',
@@ -581,7 +581,7 @@ PeriodicalSystem = {
         },
 
           65:{
-            'input': 'wyalbadi',
+            'input': 'rkina',
                 'სახელი' :'რკინა',
                 'სიმბოლო':'Fe',
                 'რიგი':'8',
@@ -590,7 +590,7 @@ PeriodicalSystem = {
         },
 
           66:{
-            'input': 'wyalbadi',
+            'input': 'kriptoniti',
                 'სახელი' :'კრიპტონი',
                 'სიმბოლო':'Kr',
                 'რიგი':'8',
@@ -599,7 +599,7 @@ PeriodicalSystem = {
         },
 
           67:{
-            'input': 'wyalbadi',
+            'input': 'ruTeniumi',
                 'სახელი' :'რუთენიუმი',
                 'სიმბოლო':'Ru',
                 'რიგი':'8',
@@ -608,7 +608,7 @@ PeriodicalSystem = {
         },
 
           68:{
-            'input': 'wyalbadi',
+            'input': 'qsenoni',
                 'სახელი' :'ქსენონი',
                 'სიმბოლო':'Xe',
                 'რიგი':'8',
@@ -617,7 +617,7 @@ PeriodicalSystem = {
         },
 
           69:{
-            'input': 'wyalbadi',
+            'input': 'osmiumi',
                 'სახელი' :'ოსმიუმი',
                 'სიმბოლო':'Os',
                 'რიგი':'8',
@@ -626,7 +626,7 @@ PeriodicalSystem = {
         },
 
           70:{
-            'input': 'wyalbadi',
+            'input': 'radiumi',
                 'სახელი' :'რადიუმი',
                 'სიმბოლო':'Rn',
                 'რიგი':'8',
@@ -635,7 +635,7 @@ PeriodicalSystem = {
         },
 
           71:{
-            'input': 'wyalbadi',
+            'input': 'kobalti',
                 'სახელი' :'კობალტი',
                 'სიმბოლო':'Co',
                 'რიგი':'9',
@@ -644,7 +644,7 @@ PeriodicalSystem = {
         },
 
           72:{
-            'input': 'wyalbadi',
+            'input': 'rodiumi',
                 'სახელი' :'როდიუმი',
                 'სიმბოლო':'Rh',
                 'რიგი':'9',
@@ -653,7 +653,7 @@ PeriodicalSystem = {
         },
 
           73:{
-            'input': 'wyalbadi',
+            'input': 'iridiumi',
                 'სახელი' :'ირიდიუმი',
                 'სიმბოლო':'Ir',
                 'რიგი':'9',
@@ -662,7 +662,7 @@ PeriodicalSystem = {
         },
 
           74:{
-            'input': 'wyalbadi',
+            'input': 'nikeli',
                 'სახელი' :'ნიკელი',
                 'სიმბოლო':'Ni',
                 'რიგი':'10',
@@ -671,7 +671,7 @@ PeriodicalSystem = {
         },
 
           75:{
-            'input': 'wyalbadi',
+            'input': 'paladiumi',
                 'სახელი' :'პალადიუმი',
                 'სიმბოლო':'Pd',
                 'რიგი':'10',
@@ -680,7 +680,7 @@ PeriodicalSystem = {
         },
 
           76:{  
-            'input': 'wyalbadi',
+            'input': 'platina',
                 'სახელი' :'პლატინა',
                 'სიმბოლო':'Pt',
                 'რიგი':'10',
