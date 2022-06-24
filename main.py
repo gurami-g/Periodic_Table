@@ -85,7 +85,7 @@ def displayLabel(elemArr):
 
 def filterElemet():
     for i in myObject:
-        if element_input.get() == myObject[i]['სახელი'] or element_input.get().upper() == myObject[i]['სიმბოლო'].upper():
+        if element_input.get() == myObject[i]['input'] or element_input.get().upper() == myObject[i]['სიმბოლო'].upper():
             currentElement = [myObject[i]['სახელი'], myObject[i]['სიმბოლო'], myObject[i]['რიგი'], myObject[i]['პერიოდი'], myObject[i]['რიგის ნომერი']]
             displayLabel(currentElement)
 
