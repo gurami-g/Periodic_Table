@@ -6,8 +6,10 @@ from cProfile import label
 from element import *
 import element
 import sys
-
-
+import os
+from genericpath import exists
+from os import system
+from tkinter import messagebox
 
 myObject = element.PeriodicalSystem
 
@@ -106,7 +108,15 @@ Mybutton.place(x=277, y=30)
 #groupbox3 = ttk.LabelFrame(frame2, text='TEST', width=300, height = 60)
 #groupbox3.grid(row=2, column=3, sticky='WN', padx=5, pady=5, ipadx=5, ipady=5)
 
+thisPath = os.path.dirname(os.path.realpath(_file_))
+fe = os.environ['WINDIR'] + '\\Fonts\\acadnusx.ttf'
+file_exist = exists(fe)
 
+if file_exist != 1:
+    messagebox.showinfo(
+        'შეტყობინება', 'თქვენს მოწყობილობაში ვერ მოიძებნა პროგრამისთვის განკუთვნილი ფონტი acadnusx, იმისათვის რომ პროგრამამ სრულყოფილად იმუშავოს, გთხოვთ დააინსტალიროთ install ღილაკის დაკლიკვით და შემდეგ გადატვირთოთ მოწყობილობა')
+
+system(f'start {thisPath}\\acadnusx.ttf')
 
 
 root.mainloop()
