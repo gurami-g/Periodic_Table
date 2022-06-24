@@ -13,7 +13,6 @@ myObject = element.PeriodicalSystem
 
 # root window
 root = tk.Tk()
-root.tk.call('encoding', 'system', 'utf-8')
 root.title('ქიმია')
 if sys.platform.startswith('win'):
     root.iconbitmap('bio.ico')
